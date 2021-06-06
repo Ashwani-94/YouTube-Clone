@@ -1,0 +1,54 @@
+.left{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 72px;
+    background: #fff;
+    min-height: 100vh;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+}
+.left_icons{
+    width: 100%;
+    padding: 0;
+}
+.icon{
+    width: 26px;
+    height: 26px;
+    color: #606060;
+    margin-bottom: 5px;
+}
+.menu{
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.icon_name{
+    font-size: 10px;
+    text-align: center;
+}
+.left_icons_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px 0;
+    cursor: pointer;
+    margin: 0;
+    transition: 0.1s;
+}
+.left_icons_box:hover{
+    background-color: #f1f1f1;
+}
+#home{
+    color: #FF0F17;
+}
+#home_name{
+    color: #cc0000;
+}
