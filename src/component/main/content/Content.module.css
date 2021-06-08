@@ -1,0 +1,14 @@
+.content{
+    position: absolute;
+    top: 56px;
+    left: 72px;
+    right: 0;
+}
+.video{
+    position: absolute;
+    top: 119px;
+    left: 72px;
+    right: 0;
+    overflow-y: scroll;
+    z-index: -1;
+}

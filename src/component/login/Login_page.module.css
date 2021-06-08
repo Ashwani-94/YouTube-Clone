@@ -1,0 +1,76 @@
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.login_box{
+    min-height: 340px;
+    min-width: 330px;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 8px;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 0 0 2px 1px #ebebebcc;
+}
+.login_box svg{
+    width: 122px;
+    height: 26px;
+    cursor: pointer;
+}
+.div_1{
+    padding-top: 16px;
+    color: #202124;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.div_2{
+    padding-top: 8px;
+    color: #202124;
+    font-size: 16px;
+    font-weight: 480;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+button{
+    margin-top: 24px;
+    width: 284.5px;
+    height: 54px;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 4px;
+    background: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+button span{
+    color: #4b4b4d;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    text-align: center;
+}
+button:hover{
+    box-shadow: 0 0 2px 1px #ebebebcc;
+}
+.div_3{
+    padding-top: 28px;
+    color: #202124;
+    font-size: 16px;
+    font-weight: 480;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
