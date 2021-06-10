@@ -30,6 +30,8 @@
     transition: 0.3s;
     font-weight: 560;
     font-size: 14px;
+    max-height: 34px;
+    min-width: fit-content;
 }
 .categories_item:hover{
     background-color: #dfdfdf;
